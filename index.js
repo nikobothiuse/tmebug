@@ -249,19 +249,19 @@ bot.command('premiumfeature', (ctx) => {
 const prosesrespone = (target, ctx) => {
     const photoUrl = 'https://files.catbox.moe/94b36m.jpg'; // Ganti dengan URL gambar atau gunakan buffer gambar
     const caption = `╭━━━「 ⚡️PROCCES 」━━━⬣
-│ Musuh Lagi Di Procces
+│ Enemy Again In Process
 │ © 𝙉𝙖𝙣𝙙𝙚𝙢𝙤ી 1.1
 ╰━━━━━━━━━━━━━━━━⬣`;
 
     const keyboard = [
         [
             {
-                text: "セラア",
+                text: "BUG MENU",
                 callback_data: "bugmenu"
             },
             {
-                text: "👁 Support Gb Owner",
-                url: "https://t.me/stariestheone"
+                text: "👁 Support ib Owner",
+                url: "t.me/whitetigermindinclk"
             }
         ]
     ];
@@ -290,12 +290,12 @@ const donerespone = (target, ctx) => {
     const keyboard = [
         [
             {
-                text: "セラ",
+                text: "BUG MENU",
                 callback_data: "bugmenu"
             },
             {
-                text: "🎯 Support Gb Owner",
-                url: "https://t.me/stariestheone"
+                text: "🎯 Support ib Owner",
+                url: "t.me/whitetigermindinclk"
             }
         ]
     ];
@@ -326,7 +326,7 @@ const kirimpesan = async (number, message) => {
 
 const checkWhatsAppConnection = (ctx, next) => {
   if (!isWhatsAppConnected) {
-    ctx.reply("❌ WhatsApp belum terhubung. Silakan hubungkan dengan Pairing Code terlebih dahulu.");
+    ctx.reply("❌ WhatsApp is not connected yet. Please connect with Pairing Code first.");
     return;
   }
   next();
@@ -895,13 +895,13 @@ Selamat ${greeting} !
 
 const keyboard = [
     [
-        { text: "バグ", callback_data: "bugmenu" },
-        { text: "☁️ Support Owner", url: "https://t.me/cellasta" }
+        { text: "bug menu", callback_data: "bugmenu" },
+        { text: "☁️ Support Owner", url: "https://t.me/whitetigermindinclk" }
     ],
     [
-        { text: "タクスト", callback_data: "thanksto" },
-        { text: "メニュー", callback_data: "menu" },
-        { text: "所有者", callback_data: "ownermenu" }
+        { text: "THANKS", callback_data: "thanksto" },
+        { text: "MENU", callback_data: "menu" },
+        { text: "OWNER MENU", callback_data: "ownermenu" }
     ],
 ];
 
@@ -930,7 +930,7 @@ Selamat ${greeting} !
 
   const keyboard = [[{
     text: "Contact Owner",
-    url: "https://t.me/cellasta"
+    url: "https://t.me/whitetigermindinclk"
   }]];
 
   ctx.replyWithPhoto("https://files.catbox.moe/94b36m.jpg", {
@@ -1086,7 +1086,7 @@ Selamat ${greeting} !
 
   const keyboard = [[{
     text: "Contact Owner",
-    url: "https://t.me/cellasta"
+    url: "https://t.me/whitetigermindinclk"
   }]];
 
   ctx.replyWithPhoto("https://files.catbox.moe/94b36m.jpg", {
